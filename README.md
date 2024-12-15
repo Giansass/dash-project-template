@@ -119,7 +119,7 @@ In order to properly install the template take the following steps:
    ```sh
    source $(poetry env info --path)/bin/activate
    ```
-   
+
 7. Install all pre-commit hooks
    ```sh
    pre-commit install --hook-type pre-commit --hook-type pre-push
@@ -130,6 +130,17 @@ In order to properly install the template take the following steps:
    project_name=$(git config --local remote.origin.url|sed -n 's#.*/\([^.]*\)\.git#\1#p')
    sed -i "" "s/python_project_template/${project_name}/" docs/conf.py
    ```
+
+9. Create a develop branch
+   ```sh
+   git branch develop
+   ```
+
+10. Run the server
+    ```sh
+    cd ./dash-project-template
+    python -m dash_project_name
+    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
