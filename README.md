@@ -1,4 +1,4 @@
-# A Python project template
+# A Dash project template
 <a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 <!--
@@ -69,7 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project aims to define a template to use to develop a Python project. The template prepares the basic Python environment necessary to proceed with development and makes use of the main libraries useful for writing correct Python code.
+This project aims to define a template to use to develop a Dash project. The template prepares the basic Dash environment necessary to proceed with development and makes use of the main libraries useful for writing correct Python code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
